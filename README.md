@@ -1,32 +1,87 @@
-# Hash-Calculator
+# Hash Calculator
 
-Calculate file hashes
+![CI](https://github.com/Qyroxen/Hash-Calculator/actions/workflows/ci.yml/badge.svg) ![Go](https://img.shields.io/badge/Go-1.23+-00ADD8?style=flat&logo=go) ![License](https://img.shields.io/badge/License-MIT-yellow.svg) ![Stars](https://img.shields.io/github/stars/Qyroxen/Hash-Calculator?style=social)
+
+> A powerful CLI tool built with Go
+
+[![Star Badge](https://img.shields.io/github/stars/Qyroxen/Hash-Calculator?style=social)](https://github.com/Qyroxen/Hash-Calculator/stargazers)
+
+## What is it?
+
+Hash Calculator is a production-ready CLI tool built with Go. It provides powerful functionality with a beautiful terminal interface.
 
 ## Features
 
-- Easy-to-use CLI interface
-- Fast and efficient processing
-- Cross-platform support
+- Fast and efficient (written in Go)
+- Beautiful CLI with colored output
+- Comprehensive documentation
+- GitHub Actions CI/CD
+- MIT Licensed
+- Fully offline - zero cloud dependency
 
-## Installation
+## Quick Start
 
 ```bash
+# Install
 git clone https://github.com/Qyroxen/Hash-Calculator.git
 cd Hash-Calculator
-go build -o hash-calculator .
+go build -o hashcalculator .
+
+# Run
+./hashcalculator --help
 ```
 
-## Usage
+## CLI Usage
 
 ```bash
-.hash-calculator .
-.hash-calculator --path ./src
+# Basic usage
+./hashcalculator
+
+# With flags
+./hashcalculator --verbose --output json
+
+# Get help
+./hashcalculator --help
 ```
+
+## Examples
+
+```bash
+# Example 1
+./hashcalculator example1
+
+# Example 2
+./hashcalculator example2 --flag value
+```
+
+## Development
+
+```bash
+# Run tests
+go test ./...
+
+# Build
+go build -o hashcalculator .
+
+# Lint
+go vet ./...
+```
+
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
+---
 
-**Qyroxen** - [GitHub](https://github.com/Qyroxen)
+<p align="center">
+  <a href="https://github.com/Qyroxen/Hash-Calculator/stargazers">
+    <img src="https://img.shields.io/github/stars/Qyroxen/Hash-Calculator?style=social" alt="Star this repo">
+  </a>
+  <a href="https://github.com/Qyroxen/Hash-Calculator/forks">
+    <img src="https://img.shields.io/github/forks/Qyroxen/Hash-Calculator?style=social" alt="Fork this repo">
+  </a>
+</p>

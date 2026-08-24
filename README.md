@@ -148,3 +148,14 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## Related Projects
 
 Part of [AetherCode Core](https://github.com/AetherCode-Core) ecosystem.
+
+![Version](https://img.shields.io/badge/Version-v2.0.0-00ADD8?style=for-the-badge)
+
+
+
+
+## What's new in v2.0.0
+
+- SHA-256 and SHA-512 checksums for any file
+- hex output, ready for scripting
+

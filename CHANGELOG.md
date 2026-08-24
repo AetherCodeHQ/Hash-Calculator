@@ -1,5 +1,15 @@
 # Changelog
 
+## [v2.0.0] - 2026-08-24
+
+Implemented: SHA-256 and SHA-512 checksums for any file; hex output, ready for scripting
+
+
+## [v2.0.0] - 2026-08-24
+
+Implemented: SHA-256 and SHA-512 checksums for any file; hex output, ready for scripting
+
+
 ## [v1.1.0] - 2025
 
 ### Added

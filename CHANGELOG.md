@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.1.0] - 2026-08-24
+
+Replaced generic stub with a purpose-built implementation unique to this tool.
+
 ## [v2.0.0] - 2026-08-24
 
 Implemented: SHA-256 and SHA-512 checksums for any file; hex output, ready for scripting
